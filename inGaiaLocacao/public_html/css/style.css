@@ -1,0 +1,236 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+    
+#bannerTopo{
+  background: url(../imagens/banner-topo.png);
+  width: 100%;
+  height: 873px;
+  color: #fff;
+}
+    
+.container{
+    width: 1170px;
+}
+    
+#bannerTopo h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 75px;
+    margin-top: 80px !important;
+}
+
+#bannerTopo p{
+    font-size: 32px;
+    text-align: justify;
+}
+
+.logo img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.conteudoPlaf{
+    background-color: #F5F5F5;
+    padding: 30px;
+}
+
+.conteudoPlaf h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.fonteAzul{
+    color: #1c4ed6;
+}
+
+.usuario{
+    background: #635099;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.usuario h3, .assinatura h3, .chat h3{
+   color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.assinatura{
+    background: #f7d774;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.chat{
+    background: #395393;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.box{
+    background: #eee;
+    padding: 0px;
+}
+
+.dashbord{
+    background: url(../imagens/dashbord.png);
+    height: 615px;
+}
+
+.footer{
+    background: url(../imagens/footer.png);
+    height: 581px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.formulario{
+    margin-top: 80px;   
+}
+
+.formulario input{
+    background: transparent;
+}
+
+.formulario select{
+    background: transparent;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 11px;
+    text-align: center;
+}
+
+.lista p{
+    
+margin-top: 23px;
+}
+
+.box1 {
+    background: #fff;
+    padding: 0px;
+    height: 108px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 4px 14px 0px #1F56EC26;
+}
+
+.picture-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.linha-vertical {
+  height: 107px;
+  border-left: 1px solid #eeeeee61;
+}
+
+.btnProdutividade {
+    background: #1c4ed6;
+    padding: 12px 57px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btnProdutividade:hover {
+    color: #fff;
+}
+
+.footer h2{
+    
+font-size: 38px;
+    
+padding-top: 190px;
+    
+font-weight: 700;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+@media only screen and (max-width:765px) {
+   
+   .col-3 {
+        max-width: 100% !important;
+        flex: auto !important;
+    }
+
+    .col-4 {
+        max-width: 100% !important;
+        flex: auto !important;
+        margin-bottom: 16px;
+    }
+
+    .col-8 {
+        max-width: 100% !important;
+        flex: auto !important;
+    }
+
+    #bannerTopo h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #bannerTopo p{
+        font-size: 13px;
+    }
+
+    #bannerTopo{
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .formulario{
+        margin-top: 0px;
+    }
+
+    .formulario input{
+        width: 100%;
+    }
+
+    input#defaultCheck1{
+        width: 7%;
+    }
+
+    .pt-100{
+        padding-top: 0px;
+    }
+
+    .footer h2{
+        font-size: 19px;
+        padding-top: 80px;
+    }
+
+    .footer p{
+        font-size: 15px !important;
+    }
+
+    .conteudoPlaf h2{
+        font-size: 24px;
+    }
+}
